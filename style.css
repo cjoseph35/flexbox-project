@@ -37,7 +37,7 @@ body{
     color: white;
     gap: 0rem;
     margin-top: 60px;
-    margin-bottom: 120px;
+    margin-bottom: 60px;
 }
 
 .intro.left{
@@ -90,6 +90,7 @@ button{
     flex: 1 0 auto;
     flex-direction: column;
     gap: 4rem;
+    padding-top: 20px;
 }
 
 .callout{
@@ -142,4 +143,87 @@ button{
     align-content: center;
     text-align: center;
     margin: 0;
+}
+
+.quote-with-attribution{
+    background-color: #E5E7EB;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.quote-with-attribution .quote{
+    font-size: 26px;
+    color: #1F2937;
+    font-style: italic;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    opacity: 75%;
+}
+
+.quote-with-attribution .attribution{
+    font-size: 16px;
+    color: #1F2937;
+    font-weight: bolder;
+    text-align: right;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.kickout-box{
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    border-radius: 8px;
+}
+
+.kickout-text{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 20px;
+    gap: 0;
+    text-align: left;
+    
+}
+
+.kickout-text .main{
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+    font-size: 16x;
+}
+
+.kickout-text .subt{
+    margin: 0;
+    padding: 0;
+    font-size: 16x;
+}
+
+.kickout-box button{
+    border-style: solid;
+    border-color: white;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    font-size:16px;
+    color: white;
+    padding: 12px;
 }
