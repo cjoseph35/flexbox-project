@@ -1,0 +1,145 @@
+body{
+    background-color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 120px; 
+    background-color: #1F2937;
+}
+.header{
+    color: #F9FAF8;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 0.5rem;
+}
+
+.header.logo{
+    font-size: 24px;
+    font-weight: bolder;
+    margin-right: auto;
+}
+
+.header.right{
+    gap: 1rem;
+    font-size: 18px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: row; 
+    justify-content: left;
+    color: white;
+    gap: 0rem;
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+
+.intro.left{
+    justify-content: left;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.intro.right{
+    background-color: gray;
+    font-size: 18px;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex: 1;
+}
+.intro h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.intro p{
+    margin: 0;
+}
+
+button{
+    background-color: #3882F6;
+    color: white;
+    font-weight: bolder;
+    border-radius: 8px;
+    width: 100px;
+    height: 40px;
+}
+
+.intro button{
+    margin-top: 15px;
+}
+
+.content{
+    background-color: white;
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.callout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.shapes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0rem;
+    margin: 0 25%;
+}
+
+.shape-subtext{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+}
+
+.square{
+    display: flex;
+    background-color: white;
+    color: white;
+    border-style: solid;
+    border-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    height: 100px;
+    flex: 1 0 auto;
+    margin: 0;
+    width: 75%
+}
+.shape-subtext p{
+    color: gray;
+    font-size: 12px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 0;
+}
